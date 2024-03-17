@@ -1,0 +1,52 @@
+.hero {
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .content {
+        width: 466px;
+        .title {
+            width: 380px;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 60px;
+            margin-bottom: 18px;
+        }
+        .text {
+            margin-bottom: 45px;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28px;
+        }
+        span {
+            .first {
+                border-radius: 3px;
+                padding: 15px 42px;
+                font-weight: 700;
+                font-size: 16px;
+                color: white;
+                margin-right: 30px;
+                border: 1px solid #02897A;
+                background-color: #02897A;
+                transition: all 0.4s ease;
+                &:hover {
+                    color: #02897A;
+                    background-color: white;
+                }                
+            }
+            .second {
+                border: none;
+                color: #02897A;
+                text-decoration: underline;
+                background-color: inherit;
+                font-weight: 600;
+                font-size: 16px;
+                transition: all 0.4s ease;
+                &:hover {
+                    color: #375451;
+                    text-decoration: dotted;
+                }
+            }
+        }
+    }
+}
