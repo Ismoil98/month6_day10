@@ -6,7 +6,7 @@ import './Header.scss'
 
 function Header() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+    <Navbar collapseOnSelect expand="lg" className="bg-white">
     <Container className="py-3">
       <Link to="/">
         <Navbar.Brand as="span" className="me-5">

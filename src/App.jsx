@@ -1,7 +1,7 @@
 import { Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Home, About, NotFound, Shop, Contact } from './pages';
-import {Headers, Loader, Hero, Footer} from './components'
+import {Headers, Loader, Footer} from './components'
 
 
 const App = () => {
@@ -42,6 +42,7 @@ const App = () => {
             }>
           </Route>
         </Routes>
+        <Footer/>
       </Router>
   )
 }
